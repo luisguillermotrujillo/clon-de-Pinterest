@@ -1,0 +1,41 @@
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 64.5%;
+}*/
+header{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+img{
+    color: #e60023;
+    height: 34px;
+}
+.container a{
+    text-align: left;
+}
+.nav-inicio{
+    background-color: #000;
+    border-radius: 36px;
+    height: 48px;
+    min-width: 70px;
+    
+}
+div ul li a{
+    color: #efefef;
+}
+.input-buscar{
+    width: 600px;
+    border-radius: 36px;
+    font-size: 16px;
+    border: none;
+    background-color: #efefef;
+    
+}
+.input-buscar:hover{
+    background-color: #ddd;
+}

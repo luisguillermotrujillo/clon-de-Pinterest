@@ -1,57 +1,46 @@
-/**{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-html{
-    font-size: 64.5%;
-}*/
 header{
     display: flex;
     justify-content: flex-start;
-    
 }
-img{
+
+.imagen{
     height: 30px;
     width: 50px;
 }
-/*.container a{
-    text-align: left;
-}*/
+
 .nav-inicio{
     background-color: #000;
     border-radius: 36px;
     height: 48px;
     min-width: 70px;
-    color: #ddd;
+    color: rgb(251, 248, 248);
     border: none;
+    font-weight: 900;
 }
 
 .input-buscar{
     height: 50px;
-    width: 900px;
+    width: 1000px;
     border-radius: 36px;
     font-size: 16px;
     border: none;
     background-color: #efefef;
-    
 }
+
 .input-buscar:hover{
     background-color: #ddd;
 }
-/*.span-neuter{
+
+.nav-hoy{
     height: 50px;
-    
+    border-radius: 30px;
+    font-weight: 900;
 }
-section{
-    justify-content: flex-end;
-}*/
+
 .nav-hoy:hover{
     background-color: #ddd;
-    border-radius: 30px;
-    height: 50px;
-    width: 0px;
 }
+
 .campanita{
     position: absolute;
     right: 1;
@@ -60,7 +49,58 @@ section{
     padding: 5px;
     color: white;
 }
+
 section div.imagen{
     max-height: 600px;
     max-width: 300px;
+}
+
+.max-img{
+    border-radius: 90%;
+}
+
+.max-img:hover{
+    background-color: #efefef;
+    border-radius: 90%;
+}
+
+.btn-boton-buscar {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    /*text-align: center;*/
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.relativa{
+    position: relative;
+}
+
+.absoluta{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+
+.max{
+    width: 20%;
+    max-height: 500px;
+    vertical-align: middle;
+    border-radius: 25px;
+}
+
+.max:hover{
+    background: #212529;
 }

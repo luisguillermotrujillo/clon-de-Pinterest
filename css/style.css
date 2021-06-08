@@ -20,7 +20,7 @@ header{
 
 .input-buscar{
     height: 50px;
-    width: 1000px;
+    width: 900px;
     border-radius: 36px;
     font-size: 16px;
     border: none;
@@ -94,15 +94,39 @@ section div.imagen{
     top: 18px;
 }
 
-.max{
-    width: 200px;
-    max-height: 500px;
-    border-radius: 25px;
-    z-index: -1000;
+
+.imagen-color{
+    width: 250px;
+    max-height:600px;
+    z-index:-1;
+    position:relative;
+    border-radius: 20px;
 }
-.imagen-hover{
-    background-color: #212529;
-    border: solid 30px blue;
-    z-index: 10;
+.max-width{
+    width: 250px;
+    position: static;
+    border-radius: 20px;
 }
+
+.max-width:hover{
+    background-color:rgba(0, 0, 0, 0.60);
+    transition: 1s;
+    
+}
+
+.guardar{
+    position: relative;
+}
+
+.guardar-boton{
+    position: absolute;
+    left: 150px;
+    top: 78px;
+    width: 90px;
+    height: 50px;
+    border: none;
+    text-decoration: none;
+    background-color: darkred;
+}
+
 

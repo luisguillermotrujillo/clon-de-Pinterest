@@ -49,6 +49,9 @@ header{
     padding: 5px;
     color: white;
 }
+.alto{
+    padding: 20px;
+}
 
 section div.imagen{
     max-height: 600px;
@@ -102,31 +105,71 @@ section div.imagen{
     position:relative;
     border-radius: 20px;
 }
+/*clase padre*/
 .max-width{
     width: 250px;
-    position: static;
+    /*position: static;*/
     border-radius: 20px;
+    color: transparent;
+
+    position: relative;
 }
 
 .max-width:hover{
     background-color:rgba(0, 0, 0, 0.60);
     transition: 1s;
-    
+
 }
 
-.guardar{
-    position: relative;
-}
-
+/*clase hijo*/
 .guardar-boton{
+    z-index: 6;
+    display: none;
+    font-size: 16px;
+    width: 100px;
     position: absolute;
-    left: 150px;
-    top: 78px;
-    width: 90px;
+    left: 140px;
+    top: 10px;
     height: 50px;
     border: none;
     text-decoration: none;
-    background-color: darkred;
+    background-color:#e60023;
+    color:#efefef;;
+    border-radius: 50px;
+    /*estilos del boton*/
+    
 }
 
+.max-width:hover .guardar-boton{
+    display: block;
+    transition: all 1s;
+}
 
+.subir-botones{
+    top: -30;
+}
+
+/*.estilos-boton{
+    overflow: hidden;
+}*/
+
+
+.clase-padre{
+	position: relative;
+    background: #f90;
+    width: 330px;
+    height: 195px;
+    float: left;
+    margin-right: 15px;
+}
+.clase-hija{
+	position: absolute;
+    z-index: 2;
+    top: 33px;
+    display: none;
+    left: 19px;
+    width: 92px;
+}
+.clase-padre:hover .clase-hija{ 
+	display:block;
+}

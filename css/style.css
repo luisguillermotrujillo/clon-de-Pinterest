@@ -2,10 +2,6 @@ header{
     display: flex;
     justify-content: flex-start;
 }
-main{
-    margin-bottom: 10px;
-}
-
 
 
 .imagen{
@@ -23,6 +19,11 @@ main{
     font-weight: 900;
     padding: 0;
     margin: 0;
+}
+
+.margin-navbar{
+    margin-top: 150px;
+
 }
 
 section{

@@ -1,4 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: left;
+}
+
+header nav .nav-navbar-section{
+    /*width: 450px;*/
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .nav-navbar-section a{
+    margin-right: 10px;
+    color: #000000;
+}
+
+nav .nav-navbar-section .menu-icon{
+    background-image: url('https://graffica.info/wp-content/uploads/2017/08/badgeRGB.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-navbar-section .menu-icon:hover{
+    box-shadow: 10px #31323547;
+    border-color:  #989ba000;
+    
+}
+
+
+
+
+
+
+
+/*header{
     display: flex;
     justify-content: flex-start;
 }
@@ -45,6 +106,7 @@ section{
     height: 50px;
     border-radius: 30px;
     font-weight: 900;
+    color: #000;
 }
 
 .nav-hoy:hover{
@@ -85,7 +147,7 @@ section div.imagen{
     line-height: 1.5;
     color: #212529;
     /*text-align: center;*/
-    text-decoration: none;
+    /*text-decoration: none;
     vertical-align: middle;
     cursor: pointer;
     -webkit-user-select: none;
@@ -97,7 +159,7 @@ section div.imagen{
     font-size: 1rem;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
+}*/
 
 .relativa{
     position: relative;

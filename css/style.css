@@ -22,7 +22,7 @@ header{
 
 header nav{
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
 }
 
 header nav .nav-navbar-section{
@@ -58,18 +58,147 @@ nav .nav-navbar-section .menu-icon{
     border-radius: 50%;
 }
 
+.background-inicio li a{
+    color: #efefef;
+    font-weight: 700;
+}
+
 .background-inicio{
     background-color: #000000;
     /*height: 48px;*/
     min-width: 70px;
     border-radius: 50px;
-    /*text-align: center;*/
-    /*font-size: 16px;*/
+    text-align: center;
     cursor: pointer;
     padding: 10px;
-    color: #efefef;
 }
 
+.span-hoy{
+    padding: 15px;
+    font-weight: 700;
+}
+
+.span-hoy:hover{
+    background-color: #efefef;
+    border-radius: 40%;
+}
+
+section{
+    width: 100%;
+}
+
+.input-buscar{
+    height: 50px;
+    /*width: 50%;*/
+    border-radius: 36px;
+    font-size: 16px;
+    border: none;
+    background-color: #efefef;
+}
+
+.input-buscar:hover{
+    background-color: #ddd;
+    color: #000000;
+}
+
+.search-icon{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.relativa{
+    position: relative;
+}
+
+.absoluta{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+
+.nav-section-botones a{
+    padding-left: 20px;
+}
+
+.center{
+    padding: 10px;
+}
+
+.center:hover{
+    background-color: #efefef;
+    border-radius: 50%;
+}
+
+.numero-notificaciones{
+    width: 32px;
+    height: 22px;
+    color: #ddd;
+    border-radius: 40%;
+    background-color: #e60023;
+    /*font-weight: bold;*/
+    text-align: center;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+    left: 40px;
+    /*top: 6px;*/
+}
+
+.background-comment-dots{
+    padding: 10px;
+}
+
+.background-comment-dots:hover{
+    background-color: #efefef;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+/*.transpatent-search:focus {
+  display: none;
+}*/
+/*.main-input{
+    width: 30px;
+    /*margin: 0 auto;*/
+    /*margin-bottom: 15px;
+}*/
+
+/*.main-input-container{
+    width: 850px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.main-input input{
+    width: auto;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.main-input-container:hover{
+    /*box-shadow: 0 1px 6px 0 #20212447;*/
+    /*border-color: #dfe1e500;*/
+    /*background-color: #ddd;
+}*/
 
 
 
@@ -106,29 +235,18 @@ nav .nav-navbar-section .menu-icon{
 section{
     display: flex;
     justify-content: space-around;
-}
+}*/
 
-.input-buscar{
-    height: 50px;
-    width: 850px;
-    border-radius: 36px;
-    font-size: 16px;
-    border: none;
-    background-color: #efefef;
-}
 
-.input-buscar:hover{
-    background-color: #ddd;
-}
 
-.nav-hoy{
+/*.nav-hoy{
     height: 50px;
     border-radius: 30px;
     font-weight: 900;
     color: #000;
-}
+}*/
 
-.nav-hoy:hover{
+/*.nav-hoy:hover{
     background-color: #ddd;
 }
 
@@ -140,7 +258,7 @@ section{
     padding: 5px;
     color: white;
 }*/
-.alto{
+/*.alto{
     margin: 10px 50px 0 50px;
 }
 
@@ -166,7 +284,7 @@ section div.imagen{
     line-height: 1.5;
     color: #212529;
     /*text-align: center;*/
-    text-decoration: none;
+    /*text-decoration: none;
     vertical-align: middle;
     cursor: pointer;
     -webkit-user-select: none;
@@ -178,17 +296,9 @@ section div.imagen{
     font-size: 1rem;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
+}*/
 
-.relativa{
-    position: relative;
-}
 
-.absoluta{
-    position: absolute;
-    left: 20px;
-    top: 18px;
-}
 
 
 .imagen-color{

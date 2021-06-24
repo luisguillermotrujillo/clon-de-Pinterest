@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clon de Pinterest</title>
-    <link rel="shortcut icon" href="./css/img/pinterest-3.ico" type="image/x-icon" >
+    <link rel="shortcut icon" href="./css/img/social_pinterest_icon_131227.ico" type="image/x-icon" >
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -16,15 +16,22 @@
     <nav>
       <ul class="nav-navbar-section">
         <span class="padding-logo" id="home_navbar">
-        <li class="menu-icon">
-          <a href="#home_navbar"></a>
-        </li>
+          <li>
+            <a href="">
+              <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="pinterest"    class="svg-inline--fa fa-pinterest fa-w-16 color" role="img" xmlns="http://www.w3. org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z">
+                </path>
+              </svg>
+            </a>
+          </li>
         </span>
+
         <span class="background-inicio">
         <li>
           <a href="">Inicio</a>
         </li>
         </span>
+
         <span class="span-hoy">
         <li>
           <a href="">Hoy</a>
@@ -48,21 +55,23 @@
             </li>
           </span>
 
+          <span class="background-comment-dots">
             <li class="nav-section-botones">
               <a href="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-chat-dots-fill background-comment-dots" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
                   <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                 </svg>
               </a>
             </li>
+          </span>
 
             <li class="nav-section-botones">
-              <a href=""><img class="imagen-usuario" style="width:10px" importance="auto" loading="auto" src="https://i.pinimg.com/75x75_RS/6b/3f/d1/6b3fd1ab8d016ff3e82f615b1103cd61.jpg">
+              <a href=""><img class="imagen-usuario" src="https://i.pinimg.com/75x75_RS/6b/3f/d1/6b3fd1ab8d016ff3e82f615b1103cd61.jpg">
               </a>
             </li>
             
             <li class="nav-section-botones">
-              <a href=""><i class="fas fa-angle-down"></i>
+              <a href=""><i class="fas fa-angle-down angulo"></i>
               </a>
             </li>
           
@@ -70,11 +79,19 @@
     </nav>
   </header>
 
+  <main class="mas-pregunta">
+    <div>
+      <i class="fas fa-plus plus"></i>
+    </div>
+    <div>
+      <i class="fas fa-question question"></i>
+    </div>
+  </main>
+
+https://picsum.photos/id/1/200/300
 
 
 
-
-    <!--comienza etilos del navbar -->
     <header>
         
         <nav class="navbar navbar-expand-lg navbar-light¿'
@@ -138,16 +155,19 @@
 
 
     <article class="max-width">
-        <button type="button" class="guardar-boton">Guardar</button>
+        <button type="button" class="guardar-boton">
+          Guardar
+        </button>
         <img class="imagen-color"src="./css/img/tigre.jpg" alt="">
-
-    
         <div class="botones-footer">
-    <a href="#" class="btn btn-color" aria-current="page">
-         <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
-</svg>
-</span> Fauna . . .</a>
+          <a href="#" class="btn btn-color" aria-current="page">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+              </svg>
+            </span>
+            Fauna . . .
+          </a>
 
     <a href="#" class="btn btn-flecha"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-box-arrow-up" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M3.5 6a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1 0-1h2A1.5 1.5 0 0 1 14 6.5v8a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-8A1.5 1.5 0 0 1 3.5 5h2a.5.5 0 0 1 0 1h-2z"/>

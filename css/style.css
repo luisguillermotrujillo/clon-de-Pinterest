@@ -6,7 +6,6 @@
 
 html{
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -16,7 +15,7 @@ a{
 
 header{
     width: 100%;
-    height: 100px;
+    /*height: 100px;*/
 }
 
 header nav{
@@ -28,13 +27,8 @@ ul{
     position: fixed;
 }
 
-/*main{
-    display: flex;
-    float: inline-start;
-}*/
-
 header nav .nav-navbar-section{
-    padding: 4px 16px 36px 16px;
+    padding: 14px 16px 20px 16px;
     background-color: #ffffff;
     height: auto;
     display: flex;
@@ -152,7 +146,7 @@ form:focus-within > img{
 .numero-notificaciones{
     width: 32px;
     height: 22px;
-    color: #ddd;
+    color: white;
     border-radius: 40%;
     background-color: #e60023;
     text-align: center;
@@ -230,37 +224,20 @@ form:focus-within > img{
     border-radius: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.transpatent-search:focus {/*clase padre*/
 .max-width{
-    width: 250px;
-    max-height: 600px;
-    /*position: static;*/
+    width: 200;
+    max-height:600px;
     border-radius: 20px;
     color: transparent;
-    margin: auto;
+    /*margin-top: auto;*/
     position: relative;
 }
 
 .max-width:hover{
     background-color:rgba(0, 0, 0, 0.60);
     transition: 1s;
-
 }
 
-/*clase hijo*/
 .guardar-boton{
     z-index: 6;
     display: none;
@@ -275,8 +252,6 @@ form:focus-within > img{
     background-color:#e60023;
     color:#efefef;;
     border-radius: 50px;
-    /*estilos del boton*/
-    
 }
 
 .btn-color{
@@ -309,6 +284,26 @@ form:focus-within > img{
     display: block;
 }
 
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    -ms-flex: 20%; 
+    flex: 20%;
+    max-width: 20%;
+    padding: 4px;
+}
+
+.column img {
+    margin-top: 30px;
+    vertical-align: middle;
+    width: 100%;
+}
 
 
 

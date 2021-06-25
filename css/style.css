@@ -16,8 +16,7 @@ a{
 
 header{
     width: 100%;
-    height: 60px;
-    margin-top: 20px;
+    height: 100px;
 }
 
 header nav{
@@ -29,7 +28,14 @@ ul{
     position: fixed;
 }
 
+/*main{
+    display: flex;
+    float: inline-start;
+}*/
+
 header nav .nav-navbar-section{
+    padding: 4px 16px 36px 16px;
+    background-color: #ffffff;
     height: auto;
     display: flex;
     list-style: none;
@@ -209,166 +215,38 @@ form:focus-within > img{
 }
 
 .mas-pregunta{
+    position: relative;
     position: fixed;
+    z-index: 100px;
     bottom: 20px;
     right: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.transpatent-search:focus {
-  display: none;
-}*/
-/*.main-input{
-    width: 30px;
-    /*margin: 0 auto;*/
-    /*margin-bottom: 15px;
-}*/
-
-/*.main-input-container{
-    width: 850px;
-    border-radius: 100px;
-    border: 1px solid #dfe1e5;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.main-input input{
-    width: auto;
-    height: 40px;
-    border: none;
-    outline: none;
-}
-
-.main-input-container:hover{
-    /*box-shadow: 0 1px 6px 0 #20212447;*/
-    /*border-color: #dfe1e500;*/
-    /*background-color: #ddd;
-}*/
-
-
-
-
-
-
-
-
-/*header{
-    display: flex;
-    justify-content: flex-start;
-}
-
-
-.imagen{
-    height: 30px;
-    width: 50px;
-}
-
-.nav-inicio{
-    background-color: #000;
-    border-radius: 36px;
-    height: 48px;
-    min-width: 70px;
-    color: rgb(251, 248, 248);
-    border: none;
-    font-weight: 900;
-}
-
-.margin-navbar{
-    margin-top: 150px;
-}
-
-section{
-    display: flex;
-    justify-content: space-around;
-}*/
-
-
-
-/*.nav-hoy{
-    height: 50px;
-    border-radius: 30px;
-    font-weight: 900;
-    color: #000;
-}*/
-
-/*.nav-hoy:hover{
-    background-color: #ddd;
-}
-
-.campanita{
-    position: absolute;
-    right: 1;
-    top: 1;
-    background-color: red;
-    padding: 5px;
-    color: white;
-}*/
-/*.alto{
-    margin: 10px 50px 0 50px;
-}
-
-section div.imagen{
-    max-height: 600px;
-    width: 300px;
-}
-
-.max-img{
-    border-radius: 90%;
-    height: 50px;
-    justify-content: center;
-    border: none;
-}
-
-.max-img:hover{
-    background-color: #efefef;
-}
-
-.btn-boton-buscar {
-    display: inline-block;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    /*text-align: center;*/
-    /*text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}*/
-
-
-
-
-.imagen-color{
+.width-height{
     width: 250px;
-    max-height:600px;
+    max-height:400px;
     z-index:-1;
     position:relative;
     border-radius: 20px;
 }
-/*clase padre*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.transpatent-search:focus {/*clase padre*/
 .max-width{
     width: 250px;
+    max-height: 600px;
     /*position: static;*/
     border-radius: 20px;
     color: transparent;

@@ -194,11 +194,11 @@ form:focus-within > img{
 }
 
 .plus{
+    margin: 5px 0;
     padding: 20px;
     border-radius: 50%;
     background-color: rgb(248, 245, 245) ;
     position: relative;
-    /*position: fixed;*/
     z-index: 1;
 }
 
@@ -211,7 +211,6 @@ form:focus-within > img{
     border-radius: 50%;
     background-color: rgb(248, 245, 245) ;
     position: relative;
-    /*position: fixed*/
     z-index: 1;
 }
 
@@ -219,7 +218,7 @@ form:focus-within > img{
     background-color: #e4dede;
 }
 
-.mas-pregunta-footer{
+.signo_pregunta-footer{
     position: relative;
     position: fixed;
     z-index: 3;
@@ -236,17 +235,21 @@ form:focus-within > img{
 }
 
 .max-width{
-    width: 200;
+    margin-top: 30px;
+    width: 150;
     max-height:400px;
     border-radius: 20px;
     color: transparent;
     position: relative;
-    /*z-index: -1;*/
 }
 
 .max-width:hover{
     background-color:rgba(0, 0, 0, 0.60);
     transition: 1s;
+}
+
+main{
+    padding: 0 40px;
 }
 
 .guardar-boton{
@@ -255,8 +258,8 @@ form:focus-within > img{
     font-size: 16px;
     width: 100px;
     position: absolute;
-    left: 150px;
-    top: 40px;
+    left: 130px;
+    top: 10px;
     height: 50px;
     border: none;
     text-decoration: none;
@@ -300,23 +303,70 @@ form:focus-within > img{
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding:4px;
-    
 }
 
 .columna {
-    /*-ms-flex: 20%; */
+    -ms-flex: 20%;
     flex: 20%;
     max-width: 20%;
-    padding: 4px;
-    margin-top: 30px;
+    padding: 5px;
 }
 
 .columna img {
-    /*margin-top: 30px;*/
     vertical-align: middle;
     width: 100%;
 
+}
+
+@media screen and (max-width: 1100px) {
+    .columna {
+        -ms-flex: 25%;
+        flex: 25%;
+        max-width: 25%;
+    }
+    .guardar-boton{
+        left: 110px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .columna {
+        -ms-flex: 33.33%;
+        flex: 33.33%;
+        max-width: 33.33%;
+    }
+    .guardar-boton{
+        left: 110px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .columna {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    .guardar-boton{
+        left: 120px;
+    }
+    .botones-footer{
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .columna {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .guardar-boton{
+        left: 160px;
+    }
+    .input-buscar{
+        width: 60px;
+    }
 }
 
 

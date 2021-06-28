@@ -13,9 +13,14 @@ a{
     cursor: pointer;
 }
 
+nav{
+    position: fixed;
+    z-index: 3;
+}
+
 header{
     width: 100%;
-    height: 100px;
+    height: 60px;
 }
 
 header nav{
@@ -192,26 +197,32 @@ form:focus-within > img{
     padding: 20px;
     border-radius: 50%;
     background-color: rgb(248, 245, 245) ;
+    position: relative;
+    /*position: fixed;*/
+    z-index: 1;
 }
 
 .plus:hover{
-    background-color: #efefef;
+    background-color: #e4dede;
 }
 
 .question{
     padding: 20px;
     border-radius: 50%;
     background-color: rgb(248, 245, 245) ;
+    position: relative;
+    /*position: fixed*/
+    z-index: 1;
 }
 
 .question:hover{
-    background-color: #efefef;
+    background-color: #e4dede;
 }
 
-.mas-pregunta{
+.mas-pregunta-footer{
     position: relative;
     position: fixed;
-    z-index: 100px;
+    z-index: 3;
     bottom: 20px;
     right: 20px;
 }
@@ -226,11 +237,11 @@ form:focus-within > img{
 
 .max-width{
     width: 200;
-    max-height:600px;
+    max-height:400px;
     border-radius: 20px;
     color: transparent;
-    /*margin-top: auto;*/
     position: relative;
+    /*z-index: -1;*/
 }
 
 .max-width:hover{
@@ -239,13 +250,13 @@ form:focus-within > img{
 }
 
 .guardar-boton{
-    z-index: 6;
+    z-index: 2;
     display: none;
     font-size: 16px;
     width: 100px;
     position: absolute;
-    left: 140px;
-    top: 10px;
+    left: 150px;
+    top: 40px;
     height: 50px;
     border: none;
     text-decoration: none;
@@ -284,25 +295,28 @@ form:focus-within > img{
     display: block;
 }
 
-.row {
+.fila {
     display: -ms-flexbox; 
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding:4px;
+    
 }
 
-.column {
-    -ms-flex: 20%; 
+.columna {
+    /*-ms-flex: 20%; */
     flex: 20%;
     max-width: 20%;
     padding: 4px;
+    margin-top: 30px;
 }
 
-.column img {
-    margin-top: 30px;
+.columna img {
+    /*margin-top: 30px;*/
     vertical-align: middle;
     width: 100%;
+
 }
 
 
